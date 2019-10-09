@@ -2,6 +2,8 @@
 
 Sample Size Estimation and Model Selection Technique
 
+Sample size estimation methods are in `code/lib/m_models.py`. Each method takes a dataset with labels `X, y` and returns a dictionary with results of the estimation. Estimated optimal sample size is `m*`. Demonstration of usage of one of the methods can be seen in `Demo.ipynb`. 
+
 List of datasets to experiment with:
 1. Considered as i.i.d., the simple ones
     - Boston dataset (simple regression, https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
